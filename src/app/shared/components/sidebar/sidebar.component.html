@@ -1,0 +1,10 @@
+<div class="bg-dark border-right p-3" id="sidebar">
+  <h3 class="text-light">GifsApp</h3>
+  <hr class="text-white">
+
+  <div class="list-group list-reset pb-2" *ngFor="let query of getHistory()">
+    <button (click)="searchTag(query)" class="list-group-item list-reset-item-action" style="text-align: start;">
+      {{ query | titlecase }}
+    </button>
+  </div>
+</div>
