@@ -41,6 +41,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "https://sjcr23.github.io/giphy-api",
               "budgets": [
                 {
                   "type": "initial",
